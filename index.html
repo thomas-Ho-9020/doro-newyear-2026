@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 新年快樂！今日限定</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 20px;
+        font-family: "Microsoft JhengHei", Arial, sans-serif;
+        text-align: center;
+        color: #ffb6c1;  /* 主要文字改成淺粉 */
+        min-height: 100vh;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .background {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-image: url("/Gykkij5awAAmy--.jpg");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.2;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding: 40px;
+        margin: 20px auto;
+        max-width: 1200px;
+        box-shadow: 0 0 40px rgba(255, 105, 180, 0.5);  /* 粉紅發光邊框 */
+    }
+
+    h1 {
+        font-size: 82px;
+        margin: 40px 0;
+        color: #ff69b4;  /* 標題超粉 Hot Pink */
+        text-shadow: 0 0 30px #ff69b4, 0 0 50px #ff1493;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from { text-shadow: 0 0 20px #ff69b4; }
+        to { text-shadow: 0 0 50px #ff1493, 0 0 80px #ff69b4; }
+    }
+
+    p { 
+        font-size: 36px; 
+        margin: 20px 0; 
+        color: #ffb6c1;
+        text-shadow: 0 0 15px #ff69b4;
+    }
+    .subtitle { font-size: 28px; color: #ffd4e7; margin-bottom: 50px; }
+    
+    .images img {
+        max-width: 90%;
+        margin: 40px auto;
+        border-radius: 20px;
+        box-shadow: 0 0 40px rgba(255, 105, 180, 0.9);
+        border: 3px solid #ff69b4;  /* 圖片邊框也粉 */
+        display: block;
+    }
+    
+    footer { 
+        margin-top: 100px; 
+        font-size: 28px; 
+        color: #ffd4e7; 
+        text-shadow: 0 0 20px #ff69b4;
+    }
+</style>
+</head>
+<body>
+    <!-- 背景層 -->
+    <div class="background"></div>
+
+    <!-- 主要內容 -->
+    <div class="content">
+        <h1>2026 年新年快樂！！🎉🎆</h1>
+        <p>願新的一年程式零 bug，記憶體零洩漏，doro永不忘記！🚀</p>
+
+        <div class="images">
+            <!-- 前景 Doro 與煙火 GIF（不透明） -->
+            <img src="/doro.gif" alt="Doro">
+            <img src="/doro_happynewyear.gif" alt="doro_happynewyear">
+            <img src="/trains-and-aviation-doro.gif" alt="trains-and-aviation-doro">
+            <!-- 想加更多 Doro 或煙火，直接繼續貼 -->
+        </div>
+
+        <footer>
+            <p>2025.12.31 限定 🦀</p>
+            <p style="font-size:52px; margin-top:40px;">跨年快樂！！！🎇✨</p>
+        </footer>
+    </div>
+	
+</body>
+</html>

@@ -1,0 +1,7 @@
+[package]
+name = "http_server_2026"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+time = { version = "0.3", features = ["formatting", "parsing", "local-offset"] }
